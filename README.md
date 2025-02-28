@@ -24,6 +24,7 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
         •	Create a dictionary with the data to plot the Elbow curve. 
         •	Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k. 
         •	Answer the following question in your notebook: What is the best value for k when using the PCA data? Does it differ from the best k value found using the original data?
+![Elbow_Curve1](https://github.com/user-attachments/assets/9b79a6d0-89a5-407b-97ef-35b044455b29)
 
 # Cluster Cryptocurrencies with K-means Using the PCA Data
     •	Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
@@ -34,6 +35,7 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
     •	Create a scatter plot using hvPlot as follows: Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d". 
     •	Color the graph points with the labels found using K-means. 
     •	Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+![PCA_plot](https://github.com/user-attachments/assets/d1824f85-959b-4c9c-b628-74c9370a271d)
 
 # Optimize Clusters with Principal Component Analysis
     •	Using the original scaled DataFrame, perform a PCA and reduce the features to three principal components.
@@ -48,10 +50,12 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
     Elbow curve comparison:
         •Compared to the original data, the PCA-transformed data (elbow curve 2) exhibits a lower inertia value. This suggests that dimensionality reduction through PCA allowed for tighter clusters with fewer features, potentially improving clustering performance.
         
+![composite_elbow_plot](https://github.com/user-attachments/assets/7c6b2679-ba7f-43a6-ae27-43a379e1cd6a)
 
     Cluster plot comparison:
         •	Cluster Graph 1 (using original data): Using the original data in Cluster Graph 1 resulted in overlapping, poorly defined clusters. This indicates that the original feature set obscured, rather than revealed, the data's underlying cluster patterns.
         •	Cluster Graph 2: Utilizing PCA-reduced data, produces four readily identifiable and distinct clusters. This result implies that PCA successfully extracted meaningful patterns, leading to significantly improved cluster separation compared to the original data.
+![composite_cluster_plot](https://github.com/user-attachments/assets/643e87e9-f1bd-4ca2-88dc-ccd9dda37794)
 
 # Conclusion
     By utilizing PCA-derived features, we achieved a marked improvement in the K-Means clustering of cryptocurrency data. The resulting clusters are more well-defined and easily differentiated, indicating that PCA effectively streamlined the data and revealed underlying structures.
