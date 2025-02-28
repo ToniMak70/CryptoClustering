@@ -1,17 +1,16 @@
 # CryptoClustering
 In this challenge, you'll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
-## Project Outline
+# Lets get started
+    • Ensure you have the following installed on your system:
+                •	Python 3.x
+                •	Pandas library (pip install pandas)
+    • Clone the repository to your local machine: [GitHub Link] (https://github.com/ToniMak70/CryptoClusterin.git)
 
 # Prepare the Data in jupyter notebook
-     • Import required libraries and dependencies:
-        import pandas as pd
-        import hvplot.pandas
-        from sklearn.cluster import KMeans
-        from sklearn.decomposition import PCA
-        from sklearn.preprocessing import StandardScaler
-    •	Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
-    •	Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+    • Import required libraries and dependencies:
+    • Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
+    • Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
         •	The first five rows of the scaled DataFrame should appear as follows:
 <img width="998" alt="scaled_DataFrame" src="https://github.com/user-attachments/assets/343e0bed-80ed-4cf6-bb58-2ae9ff564907" />
 
@@ -54,12 +53,14 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
         •	Cluster Graph 1 (using original data): Using the original data in Cluster Graph 1 resulted in overlapping, poorly defined clusters. This indicates that the original feature set obscured, rather than revealed, the data's underlying cluster patterns.
         •	Cluster Graph 2: Utilizing PCA-reduced data, produces four readily identifiable and distinct clusters. This result implies that PCA successfully extracted meaningful patterns, leading to significantly improved cluster separation compared to the original data.
 
+# Conclusion
+    By utilizing PCA-derived features, we achieved a marked improvement in the K-Means clustering of cryptocurrency data. The resulting clusters are more well-defined and easily differentiated, indicating that PCA effectively streamlined the data and revealed underlying structures.
+
+    
 ## File Structure
 CryptoClustering/
-├── .ipynb_checkpoint/
-│   ├── Crypto_Clustering-checkpoint.ipynb/
 ├── Images/
-│   ├── /
+│   ├── /cluster1.png/df_market_data.png/Elbow_Curve1.png/Elbow_curve2.png/PCA_DataFrame.png/PCA_plot.png/scaled_DataFrame.png
 ├── Resources/
 │   ├── crypto_market_data.csv/
 ├── Crypto_Clustering.ipynb
