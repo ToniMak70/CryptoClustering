@@ -2,11 +2,20 @@
 In this challenge, you'll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 ## Project Outline
-# Prepare the Data
-    •   Ensure 
+
+# Prepare the Data in jupyter notebook
+     • Import required libraries and dependencies:
+        import pandas as pd
+        import hvplot.pandas
+        from sklearn.cluster import KMeans
+        from sklearn.decomposition import PCA
+        from sklearn.preprocessing import StandardScaler
     •	Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
     •	Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
         •	The first five rows of the scaled DataFrame should appear as follows:
+<img width="998" alt="scaled_DataFrame" src="https://github.com/user-attachments/assets/343e0bed-80ed-4cf6-bb58-2ae9ff564907" />
+
+![df_market_data](https://github.com/user-attachments/assets/b3667b8e-f872-401e-bb7a-313a77f7a2d6)
 
 # Find the Best Value for k Using the Scaled DataFrame
     Use the elbow method on the PCA data to find the best value for k using the following steps:
@@ -34,6 +43,7 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
     •	Create a new DataFrame with the scaled PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
         •	The first five rows of the scaled PCA DataFrame should appear as follows:
 
+<img width="303" alt="PCA_DataFrame" src="https://github.com/user-attachments/assets/95bfc911-2ba7-43e8-9165-c44ac14aec68" />
 
 # Findings
     Elbow curve comparison:
