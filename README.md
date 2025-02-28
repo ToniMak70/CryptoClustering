@@ -5,7 +5,7 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
     • Ensure you have the following installed on your system:
                 •	Python 3.x
                 •	Pandas library (pip install pandas)
-    • Clone the repository to your local machine: [GitHub Link] (https://github.com/ToniMak70/CryptoClusterin.git)
+    • Clone the repository to your local machine: [GitHub Link] (https://github.com/ToniMak70/CryptoClustering.git)
 
 # Prepare the Data in jupyter notebook
     • Import required libraries and dependencies:
