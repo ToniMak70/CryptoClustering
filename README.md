@@ -64,7 +64,7 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
 ## File Structure
 CryptoClustering/
 ├── Images/
-│   ├── /cluster1.png/df_market_data.png/Elbow_Curve1.png/Elbow_curve2.png/PCA_DataFrame.png/PCA_plot.png/scaled_DataFrame.png
+│   ├── /cluster1.png/composite_cluster_plot.png/composite_elbow_plot.png/df_market_data.png/Elbow_Curve1.png/Elbow_curve2.png/PCA_DataFrame.png/PCA_plot.png/scaled_DataFrame.png/
 ├── Resources/
 │   ├── crypto_market_data.csv/
 ├── Crypto_Clustering.ipynb
