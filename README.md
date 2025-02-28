@@ -60,13 +60,13 @@ In this challenge, you'll use your knowledge of Python and unsupervised learning
 # Conclusion
     By utilizing PCA-derived features, we achieved a marked improvement in the K-Means clustering of cryptocurrency data. The resulting clusters are more well-defined and easily differentiated, indicating that PCA effectively streamlined the data and revealed underlying structures.
 
-    
+
 ## File Structure
 CryptoClustering/
 ├── Images/
-│   ├── /cluster1.png/composite_cluster_plot.png/composite_elbow_plot.png/df_market_data.png/Elbow_Curve1.png/Elbow_curve2.png/PCA_DataFrame.png/PCA_plot.png/scaled_DataFrame.png/
+│   ├── /cluster1.png/composite_cluster_plot.png/composite_elbow_plot.png/df_market_data.png/Elbow_Curve1.png/Elbow_curve2.png/PCA_DataFrame.png/PCA_plot.png/scaled_DataFrame.png
 ├── Resources/
-│   ├── crypto_market_data.csv/
+│   ├── crypto_market_data.csv
 ├── Crypto_Clustering.ipynb
 ├── LICENSE
 └── README.md
